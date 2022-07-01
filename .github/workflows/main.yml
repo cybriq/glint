@@ -22,7 +22,7 @@ jobs:
   # compilation check
   ########################
   rpc-check:
-    name: RPC and mobile compilation check
+    name: compilation check
     runs-on: ubuntu-latest
     steps:
       - name: git checkout
