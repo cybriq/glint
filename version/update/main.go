@@ -254,7 +254,7 @@ func bumpTag(major, minor, patch int) {
 	cmd.Stderr = os.Stderr
 	cmd.Run()
 
-	cmd = exec.Command("git", "push", "origin", "main")
+	cmd = exec.Command("git", "push", "origin", "master")
 	cmd.Stdout = os.Stdout
 	cmd.Stdin = os.Stdin
 	cmd.Stderr = os.Stderr
